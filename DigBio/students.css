@@ -1,0 +1,97 @@
+.title h1, h3 {
+    color: #f1ab98;
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+.student {
+    color: #144b47;
+    display: block;
+    padding: 10px;
+    width: 215px;
+    height: 260px;
+    border: 3px solid #f1ab98;
+    margin: 20px auto;
+    margin-left: min(50px, 5%);
+}
+
+.student:hover {
+    border: 3px solid #6ecbce;
+}
+
+.student .headshot {
+    opacity: 1;
+    display: block; 
+    position: relative; 
+}
+  
+.headshot img {
+    width: 150px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    margin: 20px;
+}
+
+.headshot:after {
+    content: '';
+    opacity: 0;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: 20px;
+}
+
+.headshot ul {
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1; 
+    bottom: 0;
+    display: block; 
+    left: 25%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.headshot ul li {
+    width: 40px; 
+    height: 40px; 
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 3px; 
+    padding: 7px;
+    display: inline-block;
+
+}
+
+.headshot a {
+    color: white;
+}
+
+.headshot:hover:after {
+    opacity: 1;
+}
+
+.headshot:hover ul {
+    opacity: 1
+}
+
+.icon {
+    font-size: 25px;
+}
+.name {
+    text-decoration: underline;
+    color: #144b47;
+    display: block;
+    text-align: center;
+}
+
+.description p{
+    color: #144b47;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+.people h1, h3{
+    color: #f1ab98;
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+.person {
+    color: #144b47;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.person:hover {
+    background-color: #f1ab98;
+}
+
+.person .headshot {
+    opacity: 1;
+    display: block; 
+    position: relative; 
+}
+  
+.headshot img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.headshot:after {
+    content: '';
+    opacity: 0;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: 20px;
+}
+
+.headshot ul {
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1; 
+    bottom: 0;
+    display: block; 
+    left: 80%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.headshot ul li {
+    width: 40px; 
+    height: 40px; 
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 3px; 
+    padding: 7px;
+    display: inline-block;
+
+}
+
+.headshot a {
+    color: white;
+}
+
+.headshot:hover:after {
+    opacity: 1;
+}
+
+.headshot:hover ul {
+    opacity: 1
+}
+
+.description p{
+    color: #144b47;
+}
+
+.name{
+    text-decoration: underline;
+    color: #144b47;
+    display: inline-flex;
+}
+
+.name:hover {
+    color: white;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.news {
+    background-color: #bee962;
+    margin: 40px; 
+    overflow: scroll;
+}
+
+.news h1, a{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.news p{
+    display: block;
+    margin: 15px;
+    color: white;
+}
+
+

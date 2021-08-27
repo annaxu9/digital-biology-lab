@@ -1,0 +1,14 @@
+.title h1, h3 {
+    color: #f1ab98;
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+.team-img {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

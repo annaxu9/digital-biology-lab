@@ -1,0 +1,44 @@
+.title h1, h3 {
+    color: #6ecbce;
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+.site {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.site a{
+    font-size: 30px;
+    color: #144b47;
+    margin-top: 15px;
+}
+
+.site ul {
+    list-style-type:none;
+}
+
+.site li {
+    font-size: 20px;
+    color: #144b47;
+}
+
+.site-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-top: 3px solid #6ecbce;
+    color: #6ecbce;
+    margin-top: 40px;
+    margin-bottom:40px;
+    opacity: 1;
+}
